@@ -2,7 +2,7 @@
 public class InheritanceDemo {
 public static void main(String args[]) {
 	
-	InheritanceA parent= new InheritanceA();
+	/*InheritanceA parent= new InheritanceA();
 	InheritanceB child= new InheritanceB();
 	parent.i=10;
 	parent.j=20;
@@ -11,6 +11,8 @@ public static void main(String args[]) {
 	child.showk();
 	child.i=40;
 	child.j=50;
-	child.showij();
+	child.showij();*/
+	InheritanceC obj3= new InheritanceC(10,20);
+	obj3.show();
 }
 }
